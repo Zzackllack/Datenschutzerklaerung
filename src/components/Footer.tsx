@@ -47,8 +47,8 @@ export default function Footer() {
           </div>
 
           {/* Right Section - Quick Links */}
-          <div className="grid grid-cols-2 gap-8 w-full md:w-2/3 md:justify-end">
-            <div className="space-y-4">
+          <div className="grid grid-cols-2 gap-8 w-full md:w-2/3 md:flex md:justify-end">
+            <div className="space-y-4 md:ml-auto">
               <h3 className="font-semibold text-white">Links</h3>
               <ul className="space-y-2">
                 <li>
@@ -83,7 +83,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="space-y-4">
+            <div className="space-y-4 md:ml-16">
               <h3 className="font-semibold text-white">Legal</h3>
               <ul className="space-y-2">
                 <li>
