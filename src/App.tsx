@@ -1,6 +1,5 @@
 import Footer from "./components/Footer";
-import PrivacyPolicyEnhanced from "./components/PrivacyPolicy";
-import privacyContent from "./content/privacyPolicy.html?raw";
+import PrivacyPolicyContent from "./components/PrivacyPolicyContent";
 import "./App.css";
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
     <div className="min-h-screen flex flex-col">
       <main className="flex-1">
         {/* Using imported HTML content */}
-        <PrivacyPolicyEnhanced htmlContent={privacyContent} />
+        <PrivacyPolicyContent />
       </main>
       <Footer />
     </div>
