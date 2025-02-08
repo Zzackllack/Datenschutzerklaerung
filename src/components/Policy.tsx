@@ -19,12 +19,12 @@ const Policy: React.FC = () => {
                 <br />
                 <em>Anschrift:</em> Auf Anfrage, kontaktieren sie uns unter unserer E-Mail Adresse.
                 <br />
+                <em>Telefon:</em> Auf Anfrage, kontaktieren sie uns unter unserer E-Mail Adresse.
+                <br />
                 E-Mail:{" "}
                 <a href="mailto:webmaster@zacklack.de" className="text-blue-400 underline">
                     webmaster@zacklack.de
                 </a>
-                <br />
-                <em>Telefon:</em> Auf Anfrage, kontaktieren sie uns unter unserer E-Mail Adresse.
                 <br /><br />
                 Diese Datenschutzerklärung gilt für sämtliche Datenverarbeitungen im Zusammenhang mit der Nutzung unserer Webangebote unter der Domain{" "}
                 <strong>zacklack.de</strong>.
