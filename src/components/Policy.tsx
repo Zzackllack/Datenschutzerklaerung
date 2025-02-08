@@ -6,19 +6,19 @@ const Policy: React.FC = () => {
             <h1 className="text-4xl font-bold mb-6">Datenschutzerklärung</h1>
             <p className="mb-4">
             </p>
-            <h2 className="text-2xl font-semibold mt-8 mb-4">1</h2>
+            <h2 className="text-2xl font-semibold mt-8 mb-4"></h2>
             <p className="mb-4">
             </p>
-            <h2 className="text-2xl font-semibold mt-8 mb-4">2</h2>
+            <h2 className="text-2xl font-semibold mt-8 mb-4"></h2>
             <p className="mb-4">
             </p>
-            <h2 className="text-2xl font-semibold mt-8 mb-4">3</h2>
+            <h2 className="text-2xl font-semibold mt-8 mb-4"></h2>
             <p className="mb-4">
             </p>
-            <h2 className="text-2xl font-semibold mt-8 mb-4">4</h2>
+            <h2 className="text-2xl font-semibold mt-8 mb-4"></h2>
             <p className="mb-4">
             </p>
-            <h2 className="text-2xl font-semibold mt-8 mb-4">5</h2>
+            <h2 className="text-2xl font-semibold mt-8 mb-4"></h2>
             <p className="mb-4">
             </p>
             <p className="mt-8 text-sm text-gray-400">
