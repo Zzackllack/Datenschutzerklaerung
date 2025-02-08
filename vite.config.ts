@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   base: '/datenschutz/',
   plugins: [
-    react(),
     tailwindcss(),
+    react(),
   ],
 })
