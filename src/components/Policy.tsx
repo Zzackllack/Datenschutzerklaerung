@@ -15,16 +15,16 @@ const Policy: React.FC = () => {
                 <br /><br />
                 <strong>Verantwortlicher im Sinne der DSGVO (Art. 4 DSGVO):</strong>
                 <br />
-                [Ihr Name/Firmenname]
+                <em>Name:</em> Auf Anfrage, kontaktieren sie uns unter unserer E-Mail Adresse.
                 <br />
-                [Ihre Anschrift]
+                <em>Anschrift:</em> Auf Anfrage, kontaktieren sie uns unter unserer E-Mail Adresse.
                 <br />
                 E-Mail:{" "}
-                <a href="mailto:[Ihre E-Mail-Adresse]" className="text-blue-400 underline">
-                    [Ihre E-Mail-Adresse]
+                <a href="mailto:webmaster@zacklack.de" className="text-blue-400 underline">
+                    webmaster@zacklack.de
                 </a>
                 <br />
-                Telefon: [Ihre Telefonnummer]
+                <em>Telefon:</em> Auf Anfrage, kontaktieren sie uns unter unserer E-Mail Adresse.
                 <br /><br />
                 Diese Datenschutzerklärung gilt für sämtliche Datenverarbeitungen im Zusammenhang mit der Nutzung unserer Webangebote unter der Domain{" "}
                 <strong>zacklack.de</strong>.
@@ -56,7 +56,7 @@ const Policy: React.FC = () => {
             <p className="mb-4">
                 Zur Optimierung der Auslieferung unserer Inhalte und zur Absicherung unserer Webpräsenz greifen wir auf die Dienste des Anbieters Cloudflare zurück. Cloudflare fungiert als Content Delivery Network (CDN) und stellt darüber hinaus Sicherheitsfunktionen bereit, um Cyberangriffen, DDoS-Attacken und sonstigen unberechtigten Zugriffen wirksam entgegenzuwirken. Die Datenübertragung an Cloudflare erfolgt unter Zuhilfenahme von SSL/TLS-Verschlüsselung und auf Grundlage berechtigter Interessen (vgl. Art. 6 Abs. 1 lit. f DSGVO). Die Übermittlung in Drittstaaten, insbesondere in die USA, erfolgt unter vertraglich gesicherten Garantien.
                 <br /><br />
-                Weitere Einzelheiten finden Sie in der Datenschutzerklärung von Cloudflare (
+                Weitere Einzelheiten finden Sie in der Datenschutzerklärung von Cloudflare:{" "}
                 <a
                     href="https://www.cloudflare.com/privacypolicy/"
                     target="_blank"
@@ -65,7 +65,6 @@ const Policy: React.FC = () => {
                 >
                     https://www.cloudflare.com/privacypolicy/
                 </a>
-                ).
             </p>
 
             <h2 className="text-2xl font-semibold mt-8 mb-4">5. Einsatz von Umami</h2>
@@ -133,6 +132,41 @@ const Policy: React.FC = () => {
                 Die Bereitstellung und Verwaltung der Serverinfrastruktur, die den Betrieb unserer Webangebote ermöglicht, erfolgt in eigenverantwortlicher Durchführung unter Zuhilfenahme einer Synology NAS (Modell DS220+) in Verbindung mit der Web Station. Diese Infrastruktur ist operativ in Berlin, Deutschland, stationiert. Ergänzend dazu umfasst unser technisches Repertoire einen weiteren Server, ausgestattet mit einer Intel CPU sowie NVMe SSD, der ergänzend zum primären System zur Anwendung kommt.
                 <br /><br />
                 Sämtliche Datenverarbeitungsprozesse erfolgen unter strikter Einhaltung der geltenden gesetzlichen Bestimmungen, insbesondere gemäß Art. 6 DSGVO, und unter Berücksichtigung interner Richtlinien. Die eingesetzte technische Infrastruktur unterliegt einem kontinuierlichen Überwachungs- und Wartungsprozess, welcher den Anforderungen der IT-Sicherheit (vgl. Art. 32 DSGVO) gerecht wird. Die operative Verwaltung der Hostinginfrastruktur wird als integraler Bestandteil eines ganzheitlichen IT-Betriebskonzepts betrachtet, das alle relevanten Prozesse und Kontrollmechanismen umfasst. Details hierzu werden aus Gründen der Betriebssicherheit und zum Schutz betrieblicher Geheimhaltungsinteressen nicht offengelegt.
+            </p>
+
+            <h2 className="text-2xl font-semibold mt-8 mb-4">10) Speicherdauer</h2>
+            <p className="mb-4">
+                Ihre personenbezogenen Daten werden so lange gespeichert, wie dies zur Erreichung der in dieser Datenschutzerklärung genannten Zwecke erforderlich ist. Soweit keine spezifische Speicherdauer angegeben ist, werden Ihre Daten gelöscht, sobald der Zweck der Speicherung entfällt oder Sie Ihre Einwilligung widerrufen, es sei denn, gesetzliche Aufbewahrungspflichten (z. B. steuer- oder handelsrechtliche) stehen dem entgegen.
+            </p>
+
+            <h2 className="text-2xl font-semibold mt-8 mb-4">11) SSL- bzw. TLS-Verschlüsselung</h2>
+            <p className="mb-4">
+                Zum Schutz der Übertragung vertraulicher Inhalte wird auf dieser Website eine SSL- bzw. TLS-Verschlüsselung eingesetzt. Eine verschlüsselte Verbindung erkennen Sie an der URL (https://) und dem Schlosssymbol in Ihrer Browserzeile.
+            </p>
+
+            <h2 className="text-2xl font-semibold mt-8 mb-4">12) Widerruf Ihrer Einwilligung und Widerspruchsrecht</h2>
+            <p className="mb-4">
+                Viele Datenverarbeitungsvorgänge basieren auf Ihrer Einwilligung (vgl. Art. 7 DSGVO). Diese können Sie jederzeit widerrufen, ohne dass die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung berührt wird. Ferner haben Sie das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, der Verarbeitung Ihrer personenbezogenen Daten zu widersprechen (vgl. Art. 21 DSGVO).
+            </p>
+
+            <h2 className="text-2xl font-semibold mt-8 mb-4">13) Beschwerderecht bei der zuständigen Aufsichtsbehörde</h2>
+            <p className="mb-4">
+                Sollten Sie den Eindruck haben, dass die Verarbeitung Ihrer personenbezogenen Daten gegen die geltenden Datenschutzbestimmungen verstößt, steht Ihnen das Recht zu, sich bei der zuständigen Aufsichtsbehörde zu beschweren. Zuständig hierfür ist in der Regel die Aufsichtsbehörde Ihres gewöhnlichen Aufenthalts oder des Ortes, an dem der mutmaßliche Verstoß stattgefunden hat.
+            </p>
+
+            <h2 className="text-2xl font-semibold mt-8 mb-4">14) Recht auf Datenübertragbarkeit</h2>
+            <p className="mb-4">
+                Sie haben das Recht, Ihre personenbezogenen Daten, die auf Grundlage Ihrer Einwilligung oder zur Vertragserfüllung automatisiert verarbeitet werden, in einem gängigen, maschinenlesbaren Format zu erhalten und diese Daten an einen anderen Verantwortlichen zu übermitteln (vgl. Art. 20 DSGVO).
+            </p>
+
+            <h2 className="text-2xl font-semibold mt-8 mb-4">15) Auskunft, Berichtigung und Löschung</h2>
+            <p className="mb-4">
+                Sie haben jederzeit das Recht auf unentgeltliche Auskunft über Ihre bei uns gespeicherten personenbezogenen Daten, deren Herkunft, Empfänger und den Zweck der Datenverarbeitung (vgl. Art. 15 DSGVO). Ferner haben Sie das Recht, unrichtige Daten berichtigen zu lassen sowie unter Beachtung gesetzlicher Vorgaben die Löschung Ihrer personenbezogenen Daten zu verlangen (vgl. Art. 16 und 17 DSGVO).
+            </p>
+
+            <h2 className="text-2xl font-semibold mt-8 mb-4">16) Recht auf Einschränkung der Verarbeitung</h2>
+            <p className="mb-4">
+                Unter bestimmten Voraussetzungen haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Dies gilt beispielsweise, wenn Sie die Richtigkeit der Daten bestreiten oder wenn die Verarbeitung unrechtmäßig erfolgt ist. In diesen Fällen werden die Daten – abgesehen von der Speicherung – nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen weiterverarbeitet.
             </p>
 
             <p className="mt-8 text-sm text-gray-400">
