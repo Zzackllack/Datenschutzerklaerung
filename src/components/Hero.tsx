@@ -1,4 +1,3 @@
-import React from "react";
 import { Spotlight } from "./ui/spotlight";
 
 const Hero = () => {
