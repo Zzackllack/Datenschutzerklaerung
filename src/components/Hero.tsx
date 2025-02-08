@@ -23,13 +23,13 @@ const Hero = () => {
               href="#policy-details"
               className="inline-flex items-center justify-center px-8 py-4 rounded-lg bg-white text-black font-medium hover:bg-neutral-200 transition-all duration-200 transform hover:scale-105"
             >
-              Read More
+              Mehr
             </a>
             <a
               href="mailto:contact@zacklack.de"
               className="inline-flex items-center justify-center px-8 py-4 rounded-lg border border-neutral-500 text-neutral-200 hover:bg-neutral-900 transition-all duration-200 transform hover:scale-105"
             >
-              Contact Us
+              Kontaktiere uns
             </a>
           </div>
         </div>
