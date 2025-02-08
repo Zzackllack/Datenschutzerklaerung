@@ -1,14 +1,11 @@
+import Hero from "./components/Hero";
 import Footer from "./components/Footer";
-import PrivacyPolicyContent from "./components/PrivacyPolicyContent";
 import "./App.css";
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col">
-      <main className="flex-1">
-        {/* Using imported HTML content */}
-        <PrivacyPolicyContent />
-      </main>
+    <div className="min-h-screen flex flex-col bg-black text-white">
+      <Hero />
       <Footer />
     </div>
   );
