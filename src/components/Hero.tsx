@@ -4,12 +4,9 @@ import { Icons } from "./ui/icons";
 
 const Hero = () => {
   return (
-    <div className="relative w-full min-h-[90vh] flex flex-col items-center justify-center overflow-hidden bg-black antialiased">
+    <div className="relative h-screen w-screen flex flex-col items-center justify-center overflow-hidden bg-black antialiased">
       <div className="absolute inset-0">
-        <Spotlight
-          className="-top-40 left-0 md:left-60 md:-top-20"
-          fill="white"
-        />
+        <Spotlight className="-top-40 left-0 md:left-60 md:-top-20" fill="white" />
       </div>
 
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
